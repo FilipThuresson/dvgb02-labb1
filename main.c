@@ -9,7 +9,7 @@
 #include <unistd.h>
 
 #define PORT 8080
-#define BUFF_SIZE 104857600
+#define BUFF_SIZE 1000 * 10000 // 10Mb
 
 char *url_decode(const char *src);
 
